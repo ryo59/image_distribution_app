@@ -1,0 +1,10 @@
+Optimizer: Adam | Activation: sigmoid | Dropout_rate: 0.01 | Batch Normalization: True | Test Loss: 5.649285291433334 | Test Accuracy: 0.3333333333333333
+Optimizer: Adam | Activation: sigmoid | Dropout_rate: 0.01 | Batch Normalization: False | Test Loss: 1.099553713798523 | Test Accuracy: 0.3333333333333333
+
+---Best parameter---
+Optimizer: Adam 
+Activation: sigmoid 
+Dropout_rate 0.01 
+Batch Normalization: True 
+Test Loss: 5.649285291433334 
+Test Accuracy: 0.3333333333333333

@@ -48,7 +48,7 @@ Y_train, Y_test = np.asarray(y_train), np.asarray(y_test)
 
 #x_train, x_test, y_train, y_test = model_selection.train_test_split(x, y)
 xy = (x_train, x_test, Y_train, Y_test)
-np.save("./animal_aug.npy", xy)
+np.save("./data/animal_aug.npy", xy)
 
 # print(len(y_train))
 # print(len(y_test))
