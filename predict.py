@@ -1,13 +1,11 @@
-import keras
 from keras.models import Sequential, load_model
 from keras.layers import Conv2D, MaxPooling2D
-from keras.layers import Activation, Dropout, Flatten, Dense
-from keras.utils import np_utils
+from keras.layers import Activation, Dropout, Flatten, Dense, BatchNormalization
 import numpy as np
 from PIL import Image
-from keras.optimizers import Adam
 import sys
-
+from utils.optimizer import get_opt
+import keras
 
 classes = ["monkey", "boar", "crow"]
 num_classes = len(classes)
@@ -20,6 +18,7 @@ def build_model():
     model.add(Conv2D(32, (3, 3)))
     model.add(Activation("relu"))
     model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(BatchNormalization())
     model.add(Dropout(0.25))
 
     model.add(Conv2D(64, (3, 3), padding="same"))
@@ -27,6 +26,7 @@ def build_model():
     model.add(Conv2D(64, (3, 3)))
     model.add(Activation("relu"))
     model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(BatchNormalization())
     model.add(Dropout(0.25))
 
     model.add(Flatten())
@@ -34,14 +34,14 @@ def build_model():
     model.add(Activation("relu"))
     model.add(Dropout(0.5))
     model.add(Dense(3))
-    model.add(Activation("sigmoid"))
+    model.add(Activation("softmax"))
 
-    opt = Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
+    opt = keras.optimizers.adam()
 
     model.compile(loss="categorical_crossentropy", optimizer=opt, metrics=["accuracy"])
 
     # モデルのロード
-    model = load_model("./image_cnn_aug.h5")
+    model = load_model("./models/image_cnn_aug.h5")
 
     return model
 

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e262e619-0333-4371-ae3e-f24dd5eed212" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/image_cnn_grid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_vgg_fine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal.npy" beforeDir="false" afterPath="$PROJECT_DIR$/data/animal.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_aug.npy" beforeDir="false" afterPath="$PROJECT_DIR$/data/animal_aug.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen_data_aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/gen_data_aug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_cnn.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/image_cnn.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_cnn_aug.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/image_cnn_aug.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/convert_h5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image_cnn_aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_cnn_aug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_cnn_grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_cnn_grid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/image_cnn_aug.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +19,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_collect.py">
+        <entry file="file://$PROJECT_DIR$/image_cnn_aug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2190">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="990">
+              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
               <folding>
-                <element signature="e#20#35#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image_cnn_aug.py">
+        <entry file="file://$PROJECT_DIR$/utils/convert_h5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#22#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/predict_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,20 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_cnn_grid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_vgg_fine.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="81" column="64" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="64" />
+            <state relative-caret-position="345">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -71,58 +69,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="345">
+              <caret line="60" column="60" selection-start-line="58" selection-start-column="4" selection-end-line="60" selection-end-column="60" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_cnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/download.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen_data_aug.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,21 +105,16 @@
         <option value="$PROJECT_DIR$/images/gen_data.py" />
         <option value="$PROJECT_DIR$/gen_data.py" />
         <option value="$PROJECT_DIR$/image_cnn.py" />
-        <option value="$PROJECT_DIR$/predict.py" />
-        <option value="$PROJECT_DIR$/image_cnn_aug.py" />
         <option value="$PROJECT_DIR$/gen_data_aug.py" />
         <option value="$PROJECT_DIR$/image_vgg_fine.py" />
         <option value="$PROJECT_DIR$/aaa.py" />
+        <option value="$PROJECT_DIR$/utils/activation.py" />
         <option value="$PROJECT_DIR$/image_cnn_grid.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/image_distribution_app.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/utils/optimizer.py" />
+        <option value="$PROJECT_DIR$/predict.py" />
+        <option value="$PROJECT_DIR$/predict_file.py" />
+        <option value="$PROJECT_DIR$/image_cnn_aug.py" />
+        <option value="$PROJECT_DIR$/utils/convert_h5.py" />
       </list>
     </option>
   </component>
@@ -190,6 +135,16 @@
               <item name="image_distribution_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="image_distribution_app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="image_distribution_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_distribution_app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="image_distribution_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_distribution_app" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,9 +154,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -224,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aaa">
+  <component name="RunManager" selected="Python.predict">
     <configuration name="aaa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="image_distribution_app" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,28 +195,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aaa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gen_data_aug" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="image_distribution_app" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gen_data_aug.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,20 +269,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="image_distribution_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.image_cnn_aug" />
-      <item itemvalue="Python.gen_data_aug" />
       <item itemvalue="Python.image_vgg_fine" />
       <item itemvalue="Python.image_cnn_grid" />
       <item itemvalue="Python.aaa" />
+      <item itemvalue="Python.predict" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.image_cnn_aug" />
         <item itemvalue="Python.image_cnn_grid" />
         <item itemvalue="Python.aaa" />
-        <item itemvalue="Python.image_cnn_aug" />
         <item itemvalue="Python.image_vgg_fine" />
-        <item itemvalue="Python.gen_data_aug" />
       </list>
     </recent_temporary>
   </component>
@@ -365,21 +321,23 @@
       <workItem from="1565416095630" duration="3252000" />
       <workItem from="1581229886731" duration="465000" />
       <workItem from="1581230675090" duration="20258000" />
+      <workItem from="1581590938664" duration="1553000" />
+      <workItem from="1582289493817" duration="12317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23975000" />
+    <option name="totallyTimeSpent" value="37845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15450644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15879828" />
       <window_info id="Structure" order="1" weight="0.24947146" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32983682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32983682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -387,7 +345,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36480185" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36480185" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32889965" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -404,61 +362,27 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/image_distribution_app$image_vgg_fine.coverage" NAME="image_vgg_fine Coverage Results" MODIFIED="1581349371024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/image_distribution_app$image_cnn_aug.coverage" NAME="image_cnn_aug Coverage Results" MODIFIED="1581402754911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image_distribution_app$image_cnn_aug.coverage" NAME="image_cnn_aug Coverage Results" MODIFIED="1582446430472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image_distribution_app$predict.coverage" NAME="predict Coverage Results" MODIFIED="1582449971611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/image_distribution_app$image_cnn_grid.coverage" NAME="image_cnn_grid Coverage Results" MODIFIED="1581418259363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/image_distribution_app$gen_data_aug.coverage" NAME="gen_data_aug Coverage Results" MODIFIED="1581349025152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/image_distribution_app$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1581416641188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/images/gen_data.py" />
-    <entry file="file://$PROJECT_DIR$/images/estimate/boar.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/crow/87629204.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/boar/8254242.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aaa.py" />
     <entry file="file://$PROJECT_DIR$/gen_data_aug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
+        <state relative-caret-position="690">
           <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_vgg_fine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="81" column="64" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -473,9 +397,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gen_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_vgg_fine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="64" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/estimate/boar.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/estimate/boar2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_cnn_grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image_collect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2190">
+        <state relative-caret-position="-1871">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#20#35#0" expanded="true" />
@@ -483,42 +470,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="60" column="60" selection-start-line="58" selection-start-column="4" selection-end-line="60" selection-end-column="60" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_cnn_grid.py">
+    <entry file="file://$PROJECT_DIR$/predict_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="335">
+          <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#22#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image_cnn_aug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="990">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/convert_h5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
